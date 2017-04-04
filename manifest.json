@@ -12,7 +12,7 @@
         "https://*/*"
         ],
 		"css":["highlight-default.css"],
-		"js":["jquery.js","highlight.js","ui.js"]
+		"js":["jquery.js","highlight.js","rename.js"]
 	}
 	],
 	"permissions": [
