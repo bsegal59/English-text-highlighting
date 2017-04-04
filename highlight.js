@@ -5,7 +5,7 @@
 	var GRAMMAR = {
 		"in-quotes": "(\"[^\"].*?\")",
 		"in-parentheses": "(\\(.*\\))",
-		"in-single-quotes": "('[^\'].*?')",
+		//"in-single-quotes": "('[^\'].*?')",
 		"number": "(\\d+(?:\\.\\d+)?)",
 		"period": "(\\.)",
 		"comma": "(,)",

@@ -5,7 +5,6 @@ $(document).ready(function() {
 				var data = {}
         var str = $(this).text();
         data.bodyText = highlight(str);
-				console.log(data);;
 				$(this).html(data.bodyText);
 
     });
