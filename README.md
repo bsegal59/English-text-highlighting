@@ -8,4 +8,6 @@ This repo is my first google chrome extension and the first JavaScript project t
 
 ### Future Additions
 1. Fix the issue of how it removes <a> tags from <p> tags
-2. 
+2. Add single quote tags that do not pick up contractions
+3. Preform text analysis after highlighting
+4. Use a text parser that works better for html than regex statements
