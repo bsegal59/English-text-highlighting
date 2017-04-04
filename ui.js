@@ -1,21 +1,17 @@
 $(document).ready(function() {
+    var $p = $("p");
+    $p.each(function() {
 
-	var $form = $('#setup');
-	var $prose = $('#prose');
-	var $output = $('#output');
+				var data = {}
+        var str = $(this).text();
+        data.bodyText = highlight(str);
+				console.log(data);;
+				$(this).html(data.bodyText);
 
-	var doIt = function() {
-		var result = highlight($prose.val());
-		$output.html(result);
-	};
+    });
 
-	$form.on('submit', function(event) {
-		event.preventDefault();
-		doIt();
-	});
 
-	$prose.val(HOLMES_TEXT);
 
-	doIt();
+
 
 });
